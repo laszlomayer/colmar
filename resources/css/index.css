@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+/* General Styles */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+/* Header Section */
+
+header {
+    margin: 0 24px;
+    height: 64px;
+    border-bottom: 1px solid gray;
+}
+
+#header-desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+#logo-img-container {
+    width: 52px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#logo-img-container img {
+    width: 100%;
+    height: auto;
+}
+
+#logo-text-container {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+#logo-text-1 {
+    font-weight: bold;
+}
+
+#logo-text-2 {
+    color: gray;
+}
+
+header nav, header ul {
+    display: inline;
+}
+
+header li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 1.25rem;
+}
