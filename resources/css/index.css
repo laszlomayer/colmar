@@ -100,12 +100,12 @@ header li {
 /* Banner Section */
 
 #banner {
-    /* width: 100%; */
     background-color: lightgray;
     padding: 32px 24px;
-    display: flex;
+    /* display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center; */
+    position: relative;
 }
 
 #banner .picture-container {
@@ -113,8 +113,8 @@ header li {
     width: 60%;
     height: auto;
     overflow: hidden;
-    flex-shrink: 1;
-    flex-grow: 1;
+    /* flex-shrink: 1;
+    flex-grow: 1; */
 }
 
 #banner .picture-container img {
@@ -124,8 +124,12 @@ header li {
 }
 
 #banner .textbox {
-    margin-left: 24px;
-    display: inline-block;
-    flex-shrink: 1;
-    flex-grow: 1;
+    padding-left: 24px;
+    position: absolute;
+    left: 60%;
+    top: 32px;
+    height: auto;
+    
+    /* flex-shrink: 1;
+    flex-grow: 1; */
 }
