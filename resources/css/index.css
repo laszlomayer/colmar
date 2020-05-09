@@ -101,35 +101,30 @@ header li {
 
 #banner {
     background-color: lightgray;
-    padding: 32px 24px;
-    /* display: flex;
-    justify-content: flex-start;
-    align-items: center; */
     position: relative;
 }
 
 #banner .picture-container {
-    display: inline-block;
     width: 60%;
     height: auto;
     overflow: hidden;
-    /* flex-shrink: 1;
-    flex-grow: 1; */
+    padding: 32px 24px;
 }
 
 #banner .picture-container img {
     width: 100%;
     height: auto;
     display: block;
+
 }
 
 #banner .textbox {
-    padding-left: 24px;
+    padding: 32px 16px;
     position: absolute;
     left: 60%;
-    top: 32px;
-    height: auto;
-    
-    /* flex-shrink: 1;
-    flex-grow: 1; */
+    top: 0px;
+}
+
+#banner .vertical-center {
+    margin auto 0;
 }
