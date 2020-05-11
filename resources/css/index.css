@@ -31,6 +31,10 @@ p {
     line-height: 1.5em;
 }
 
+a {
+    color: royalblue;
+}
+
 .author {
     font-size: 0.8rem;
     font-stretch: condensed;
@@ -199,6 +203,7 @@ header li {
 #information {
     position: relative;
     top: 64px;
+    width: 100%;
 }
 
 #main-article {
@@ -216,5 +221,43 @@ header li {
     width: 100%;
     height: auto;
     display: block;
+}
+
+#secondary-block {
+    position: absolute;
+    width: 40%;
+    left: 60%;
+    top: 16px;
+}
+
+.secondary-article {
+    position: relative;
+    padding: 16px 24px 16px 16px;
+}
+
+.secondary-article .picture-container {
+    width: 35%;
+    height: auto;
+    overflow: hidden;
+}
+
+.secondary-article .picture-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#information .textbox {
+    position: absolute;
+    left: 35%;
+    top: 0;
+    height: 100%;
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+}
+
+#information p {
+    margin: 8px 0;
 }
 
