@@ -152,3 +152,25 @@ header li {
         padding-right: 0;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    #banner .picture-container {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding: 0px;
+    }
+
+    #banner .textbox {
+        padding: 32px 16px;
+        position: static;
+    }
+
+    h1 {
+        margin-bottom: 32px;
+    }
+
+    #banner .button {
+        margin-top: 24px;
+    }
+}
