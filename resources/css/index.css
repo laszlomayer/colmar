@@ -15,16 +15,36 @@ h1 {
     margin-bottom: 2.5rem;
 }
 
+h2 {
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
 h3 {
     font-size: 2rem;
     font-weight: 700;
 }
 
+p {
+    line-height: 1.5em;
+}
+
+.author {
+    font-size: 0.8rem;
+    font-stretch: condensed;
+    margin-top: 1.5rem;
+}
+
 /* Header Section */
 
 header {
-    margin: 0 24px;
-    /* border-bottom: 1px solid gray; */
+    padding: 0 24px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: white;
 }
 
 #header-desktop nav {
@@ -108,6 +128,7 @@ header li {
 #banner {
     background-color: lightgray;
     position: relative;
+    top: 64px;
 }
 
 #banner .picture-container {
@@ -121,7 +142,6 @@ header li {
     width: 100%;
     height: auto;
     display: block;
-
 }
 
 #banner .textbox {
@@ -174,3 +194,27 @@ header li {
         margin-top: 24px;
     }
 }
+
+/* Information Section */
+#information {
+    position: relative;
+    top: 64px;
+}
+
+#main-article {
+    padding: 32px 24px;
+    width: 60%;
+}
+
+#main-article .picture-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#main-article .picture-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
