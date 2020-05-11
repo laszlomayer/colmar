@@ -31,10 +31,6 @@ p {
     line-height: 1.5em;
 }
 
-a {
-    color: royalblue;
-}
-
 .author {
     font-size: 0.8rem;
     font-stretch: condensed;
@@ -259,5 +255,9 @@ header li {
 
 #information p {
     margin: 8px 0;
+}
+
+#information a {
+    color: royalblue;
 }
 
