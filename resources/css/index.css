@@ -237,7 +237,8 @@ header li {
     overflow: hidden;
 }
 
-.secondary-article .picture-container img {
+.secondary-article .picture-container img,
+.secondary-article .picture-container-mobile img {
     width: 100%;
     height: auto;
     display: block;
@@ -261,3 +262,43 @@ header li {
     color: royalblue;
 }
 
+#information .picture-container-mobile {
+    display: none;
+}
+
+.secondary-article .picture-container-mobile {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 480px) {
+    #main-article {
+        display: none;
+    }
+
+    #secondary-block {
+        position: static;
+        width: 100%;
+    }
+
+    .secondary-article {
+        position: static;
+        padding: 16px 16px 32px 16px;
+    }
+
+    #information .picture-container {
+        display: none;
+    }
+
+    #information .picture-container-mobile {
+        display: block;
+    }
+
+    #information .textbox {
+        position: static;
+        padding-left: 16px;
+        padding-top: 32px;
+        display: block;
+    }
+}
