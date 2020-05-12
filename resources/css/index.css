@@ -302,3 +302,46 @@ header li {
         display: block;
     }
 }
+
+/* Courses Section */
+
+#courses {
+    position: relative;
+    top: 64px;
+    background-color: lightgray;
+    padding: 32px 40px 32px 72px;
+}
+
+#courses h2 {
+    margin-top: 0;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+#course-block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course-box {
+    flex: 1 1;
+    background-color: white;
+    margin-right: 32px;
+}
+
+.course-box .picture-container {
+    /* width: 100%; */
+    height: auto;
+    overflow: hidden;
+}
+
+.course-box .picture-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.course-box .textbox {
+    padding: 16px 16px 24px 16px;
+}
