@@ -309,7 +309,7 @@ header li {
     position: relative;
     top: 64px;
     background-color: lightgray;
-    padding: 32px 40px 32px 72px;
+    padding: 32px 40px 0 72px;
 }
 
 #courses h2 {
@@ -318,20 +318,22 @@ header li {
     text-align: center;
 }
 
-#course-block {
+.course-block {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .course-box {
     flex: 1 1;
+    /* width: 30%; */
+    display: inline-block;
+    vertical-align: top;
     background-color: white;
     margin-right: 32px;
+    margin-bottom: 32px;
 }
 
 .course-box .picture-container {
-    /* width: 100%; */
     height: auto;
     overflow: hidden;
 }
