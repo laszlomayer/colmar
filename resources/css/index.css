@@ -383,7 +383,7 @@ header li {
 
 
 
-/* THesis Section */
+/* Thesis Section */
 #thesis {
     position: relative;
     top: 64px;
@@ -420,4 +420,30 @@ header li {
         padding: 16px 0 24px 0;
     }
 
+}
+
+
+
+/* Footer */
+footer {
+    position: relative;
+    top: 64px;
+    width: 100%;
+    padding: 16px 24px 32px 24px;
+}
+
+footer nav {
+    display: inline;
+    float: right;
+}
+
+footer li {
+    display: inline;
+    margin-left: 16px;
+}
+
+@media only screen and (max-width:520px) {
+    footer nav {
+        display: none;
+    }
 }
