@@ -195,30 +195,31 @@ header li {
 }
 
 /* Information Section */
-#information {
+.information {
     position: relative;
     top: 64px;
     width: 100%;
 }
 
-#main-article {
+.main-article {
     padding: 32px 24px;
     width: 60%;
 }
 
-#main-article .picture-container {
+.main-article .picture-container {
     width: 100%;
     height: auto;
     overflow: hidden;
 }
 
-#main-article .picture-container img {
+.main-article .picture-container img,
+.main-article .picture-container video {
     width: 100%;
     height: auto;
     display: block;
 }
 
-#secondary-block {
+.secondary-block {
     position: absolute;
     width: 40%;
     left: 60%;
@@ -243,7 +244,7 @@ header li {
     display: block;
 }
 
-#information .textbox {
+.information .textbox {
     position: absolute;
     left: 35%;
     top: 0;
@@ -253,15 +254,15 @@ header li {
     align-items: center;
 }
 
-#information p {
+.information p {
     margin: 8px 0;
 }
 
-#information a {
+.information a {
     color: royalblue;
 }
 
-#information .picture-container-mobile {
+.information .picture-container-mobile {
     display: none;
 }
 
@@ -272,11 +273,11 @@ header li {
 }
 
 @media only screen and (max-width: 480px) {
-    #main-article {
+    .main-article {
         display: none;
     }
 
-    #secondary-block {
+    .secondary-block {
         position: static;
         width: 100%;
     }
@@ -286,15 +287,15 @@ header li {
         padding: 16px 16px 32px 16px;
     }
 
-    #information .picture-container {
+    .information .picture-container {
         display: none;
     }
 
-    #information .picture-container-mobile {
+    .information .picture-container-mobile {
         display: block;
     }
 
-    #information .textbox {
+    .information .textbox {
         position: static;
         padding-left: 16px;
         padding-top: 32px;
@@ -378,4 +379,31 @@ header li {
     .course-box p {
         display: none;
     }
+}
+
+
+
+/* THesis Section */
+#thesis {
+    position: relative;
+    top: 64px;
+    width: 100%;
+}
+
+#thesis .information {
+    position: relative;
+    top: 0;
+}
+
+#thesis h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#thesis h3 {
+    margin-top: 24px;
+}
+
+#thesis-video {
+    padding-bottom: 24px;
 }
