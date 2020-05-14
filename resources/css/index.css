@@ -65,6 +65,11 @@ html {
     font-size: 16px;
 }
 
+.section-center {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 h1 {
     font-size: 2.5rem;
     font-weight: 800;
@@ -203,6 +208,7 @@ header li {
 
 #banner .textbox {
     height: 100%;
+    max-width: 593px;
     padding: 32px 24px 32px 16px;
     position: absolute;
     left: 60%;
@@ -287,6 +293,7 @@ header li {
 .secondary-block {
     position: absolute;
     width: 40%;
+    max-width: 633px;
     left: 60%;
     top: 16px;
 }
@@ -408,6 +415,10 @@ header li {
     padding: 32px 40px 0 72px;
 }
 
+#courses .section-center {
+    max-width: 1471px;
+}
+
 #courses h2 {
     margin-top: 0;
     margin-bottom: 32px;
@@ -486,6 +497,10 @@ header li {
     width: 100%;
 }
 
+#thesis .section-center {
+    max-width: 1583px;
+}
+
 #thesis .information {
     position: relative;
     top: 0;
@@ -541,6 +556,10 @@ footer {
     padding: 16px 24px 32px 24px;
 }
 
+footer .section-center {
+    max-width: 1535px;
+}
+
 footer nav {
     display: inline;
     float: right;
@@ -551,7 +570,7 @@ footer li {
     margin-left: 16px;
 }
 
-@media only screen and (max-width:520px) {
+@media only screen and (max-width:530px) {
     footer nav {
         display: none;
     }
