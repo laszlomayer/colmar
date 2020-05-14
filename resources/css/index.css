@@ -128,16 +128,18 @@ header {
 
 #logo-text-container {
     display: inline;
+    font-family: Catamaran, Arial, sans-serif;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 #logo-text-1 {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 #logo-text-2 {
     color: gray;
+    font-weight: 400;
 }
 
 header ul {
@@ -155,7 +157,7 @@ header li {
 }
 
 /* Mobile Header */
-@media only screen and (max-width: 745px) {
+@media only screen and (max-width: 775px) {
     #header-desktop {
         display: none;
     }
@@ -201,7 +203,7 @@ header li {
 
 #banner .textbox {
     height: 100%;
-    padding: 32px 16px;
+    padding: 32px 24px 32px 16px;
     position: absolute;
     left: 60%;
     top: 0px;
@@ -222,13 +224,13 @@ header li {
     margin-top: 3rem;
 }
 
-@media only screen and (max-width: 970px) {
+/* @media only screen and (max-width: 975px) {
     #banner .vertical-center {
         padding-right: 0;
     }
-}
+} */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 972px) {
     #banner .picture-container {
         width: 100%;
         height: auto;
@@ -239,6 +241,11 @@ header li {
     #banner .textbox {
         padding: 32px 16px;
         position: static;
+    }
+
+    #banner .vertical-center {
+        width: 100%;
+        padding-right: 0;
     }
 
     h1 {
@@ -311,13 +318,13 @@ header li {
     left: 35%;
     top: 0;
     height: 100%;
-    padding-left: 24px;
+    padding: 0 24px;
     display: flex;
     align-items: center;
 }
 
 .information p {
-    margin: 8px 0;
+    margin: 8px 0 0 0;
 }
 
 .information a {
@@ -334,8 +341,35 @@ header li {
     overflow: hidden;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1170px) {
     .main-article {
+        width: 100%;
+    }
+
+    .secondary-block {
+        position: static;
+        width: 100%;
+    }
+
+    .secondary-article {
+        position: relative;
+        padding: 24px 72px 24px 72px;
+    }
+
+    .secondary-article .picture-container {
+        width: 25%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .information .textbox {
+        left: 29%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    #information .main-article {
         display: none;
     }
 
@@ -486,6 +520,15 @@ header li {
         padding: 16px 0 24px 0;
     }
 
+}
+
+@media only screen and (max-width: 600px) {
+    #thesis .main-article {
+        display: block;
+    }
+    #thesis .picture-container {
+        display: block;
+    }
 }
 
 
