@@ -66,6 +66,7 @@ html {
 }
 
 .section-center {
+    position: relative;
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -358,9 +359,13 @@ header li {
         width: 100%;
     }
 
+    .secondary-block .highlighted {
+        margin-bottom: 8px;
+    }
+
     .secondary-article {
         position: relative;
-        padding: 24px 72px 24px 72px;
+        padding: 16px 72px 16px 72px;
     }
 
     .secondary-article .picture-container {
@@ -521,6 +526,10 @@ header li {
 
 #thesis .secondary-block {
     top: 32px;
+}
+
+#thesis .highlighted {
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: 960px) {
