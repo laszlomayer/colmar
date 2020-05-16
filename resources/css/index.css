@@ -63,6 +63,7 @@
 html {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 16px;
+    color: #363636;
 }
 
 .section-center {
@@ -106,7 +107,7 @@ header {
     position: fixed;
     z-index: 10;
     width: 100%;
-    background-color: white;
+    background-color: #F1F2EB;
 }
 
 #header-desktop nav {
@@ -189,7 +190,7 @@ header li {
 /* Banner Section */
 
 #banner {
-    background-color: lightgray;
+    background-color: #74776B;
     position: relative;
     top: 64px;
 }
@@ -563,6 +564,7 @@ footer {
     top: 64px;
     width: 100%;
     padding: 16px 24px 32px 24px;
+    background-color: #F1F2EB;
 }
 
 footer .section-center {
