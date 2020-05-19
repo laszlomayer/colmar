@@ -72,6 +72,10 @@ html {
     margin: 0 auto;
 }
 
+h1, h2, h3 {
+    color: #74776B;
+}
+
 h1 {
     font-size: 2.5rem;
     font-weight: 800;
@@ -83,6 +87,7 @@ h2 {
     font-weight: 800;
     margin-top: 32px;
     margin-bottom: 24px;
+    color: #022a69;
 }
 
 h3 {
@@ -190,9 +195,17 @@ header li {
 /* Banner Section */
 
 #banner {
-    background-color: #74776B;
+    background-color: #022a69;
     position: relative;
     top: 64px;
+}
+
+#banner h1 {
+    color: #FFF;
+}
+
+#banner h3 {
+    color: #b5b9ac;
 }
 
 #banner .picture-container {
@@ -206,6 +219,7 @@ header li {
     width: 100%;
     height: auto;
     display: block;
+    border: 2px solid #b5b9ac;
 }
 
 #banner .textbox {
@@ -225,11 +239,18 @@ header li {
 
 #banner .button {
     padding: 8px 0;
-    background-color: gray;
+    background-color: hsl(213, 86%, 60%);
     color: white;
     font-size: 1.5rem;
     text-align: center;
     margin-top: 3rem;
+    border-radius: 10px;
+    transition-property: background-color;
+    transition-duration: 300ms;
+}
+
+#banner .button:hover {
+    background-color: hsl(213, 86%, 50%);
 }
 
 /* @media only screen and (max-width: 975px) {
@@ -306,7 +327,7 @@ header li {
 }
 
 .secondary-block .highlighted {
-    background-color: lightgray;
+    background-color: #F1F2EB;
 }
 
 .secondary-article .picture-container {
@@ -337,7 +358,7 @@ header li {
 }
 
 .information a {
-    color: royalblue;
+    color: #4392F1;
 }
 
 .information .picture-container-mobile {
@@ -417,7 +438,7 @@ header li {
 #courses {
     position: relative;
     top: 64px;
-    background-color: lightgray;
+    background-color: #D8DAD3;
     padding: 32px 40px 0 72px;
 }
 
